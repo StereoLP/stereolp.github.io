@@ -2,7 +2,7 @@
 
 $base-font-family: "Yu Gothic UI", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif !default;
 
-$serif-font-family: "Web Medium", Charter, "XCharter", "Noto Serif", "Roboto Slab", times, serif !default;
+$serif-font-family: "Web Medium", Charter, "XCharter", "Noto Serif", "Roboto Slab", times, "Noto Serif JP", serif !default;
 
 $code-font-family: "Recursive", "Sarasa Term J", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
 
@@ -17,5 +17,10 @@ $text-color: #242424;
 $title-color: #181818;
 $header-color: #212121;
 
+$title-hover-color: #5A5A5A;
+
 $background-color: #FFFFFA;
 $code-background-color: #F7FCFC;
+
+$content-width: 900px;
+$header-width: $content-width;

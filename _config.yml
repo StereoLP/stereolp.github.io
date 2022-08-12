@@ -26,7 +26,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 header_pages:
   - category1.md
   - category2.md
-  - about.md
+#  - subcategory21.md
+#  - about.md
 
 # Build settings
 remote_theme: jekyll/minima
