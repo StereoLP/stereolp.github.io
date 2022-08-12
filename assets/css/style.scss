@@ -1,0 +1,88 @@
+---
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/custom-variables",
+  "minima/custom-styles",
+  "minima/initialize";
+
+header, h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-family;
+  color: $header-color;
+  font-weight: $header-font-weight;
+}
+
+.site-title, .site-title:visited {
+  color: $title-color;
+  display:block;
+  float: none;
+  font-weight: $title-font-weight;
+}
+
+a.site-title:hover {
+    text-decoration: none;
+}
+
+body {
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $serif-font-family;
+  color: $text-color;
+}
+
+@media screen and (min-width: 800px) {
+  .post-title, .post-content h1 {
+    font-size: 1.825rem;
+  }
+}
+
+.post-title, .post-content h1 {
+  font-size: 2.025rem;
+}
+
+.post-meta {
+  font-family: $header-font-family;
+}
+
+pre, code {
+  font-size: 0.85em;
+  background-color: $code-background-color;
+}
+
+footer {
+  font-family: $base-font-family;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap');
+
+@font-face {
+  font-family: 'Web Light';
+    src: url("/assets/css/fonts/WebLight.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Web Light Italic';
+    src: url("/assets/css/fonts/WebLightItalic.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Web Regular';
+    src: url("/assets/css/fonts/WebRegular.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Web Regular Italic';
+    src: url("/assets/css/fonts/WebRegularItalic.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Web Medium';
+    src: url("/assets/css/fonts/WebMedium.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Web Medium Italic';
+    src: url("/assets/css/fonts/WebMediumItalic.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Web Bold';
+    src: url("/assets/css/fonts/WebBold.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Web Bold Italic';
+    src: url("/assets/css/fonts/WebBoldItalic.woff2") format('woff2')
+}

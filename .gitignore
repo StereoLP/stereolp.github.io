@@ -4,3 +4,13 @@ _site
 .jekyll-metadata
 vendor
 runsitelocally.bat
+_sass/minima/_base.scss
+_sass/minima/_layout.scss
+_sass/minima/initialize.scss
+_sass/minima/skins/*
+_posts/1970-01-01-template.md
+_includes/custom-head.html
+_includes/disqus_comments.html
+_includes/google-analytics.html
+_includes/head.html
+_includes/social.html
