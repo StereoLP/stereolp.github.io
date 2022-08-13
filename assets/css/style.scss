@@ -66,6 +66,12 @@ body {
   font-family: $header-font-family;
 }
 
+img.inline-img {
+  width: $base-font-size * 1.35;
+  height: auto;
+  margin-bottom: $base-line-height * 4px;
+}
+
 pre, code {
   font-size: 0.85em;
   background-color: $code-background-color;
