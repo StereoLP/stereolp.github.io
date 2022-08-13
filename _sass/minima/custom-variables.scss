@@ -22,5 +22,5 @@ $title-hover-color: #5A5A5A;
 $background-color: #FFFFFA;
 $code-background-color: #F7FCFC;
 
-$content-width: 900px;
+$content-width: $base-font-size * 60 / 1.7;
 $header-width: $content-width;
