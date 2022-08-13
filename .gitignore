@@ -9,7 +9,6 @@ _sass/minima/_layout.scss
 _sass/minima/initialize.scss
 _sass/minima/skins/*
 _posts/1970-01-01*
-_includes/custom-head.html
 _includes/disqus_comments.html
 _includes/google-analytics.html
 _includes/head.html
