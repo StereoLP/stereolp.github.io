@@ -2,11 +2,15 @@
 
 $base-font-family: "Yu Gothic UI", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif !default;
 
-$serif-font-family: "Web Medium", Charter, "XCharter", "Noto Serif", "Roboto Slab", times, "Noto Serif JP", serif !default;
+$serif-font-family: "Web", Charter, "XCharter", "Noto Serif", "Roboto Slab", times, "Noto Serif JP", serif !default;
 
 $code-font-family: "Recursive", "Sarasa Term J", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
 
 $base-font-size: 19px;
+$base-font-weight: 400;
+$base-line-height: 1.5;
+
+$serif-font-weight: 500;
 
 $header-font-family: "Yu Gothic UI", "Segoe UI", Helvetica, Arial, sans-serif !default;
 $header-font-weight: 450;

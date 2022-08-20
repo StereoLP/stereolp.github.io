@@ -16,6 +16,9 @@
 <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
 <meta name="theme-color" content="#fffef9">
 
+{%if page.tags %}
+<meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
+{%endif %}
 
 
 <script async src="https://api.countapi.xyz/hit/stereolp.github.io/:PATHNAME:?callback=updVi"></script>
